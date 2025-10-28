@@ -2,15 +2,16 @@ import streamlit as st
 from PIL import Image, ImageDraw, ImageFont
 import hashlib, datetime, random, os, json, io
 from zoneinfo import ZoneInfo
-import time
+import time 
 import base64
 
 # Türkiye/İstanbul saat dilimi tanımı (UTC+3)
 TURKISH_TZ = ZoneInfo("Europe/Istanbul")
 
 # ----------------------------- Ayarlar ve Başlık -----------------------------
-st.set_page_config(
-    page_icon="🖼️",
+st.set_page_config( 
+    page_title="Zamanlı Görsel Şifreleme (🇹🇷)",
+    page_icon="🖼️",
     layout="wide"
 )
 
