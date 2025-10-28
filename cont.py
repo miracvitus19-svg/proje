@@ -13,7 +13,7 @@ st.set_page_config(
     page_title="Zamanlı Görsel Şifreleme (🇹🇷)",
     page_icon="🖼️",
     layout="wide"
-)
+ )
 
 st.title("🖼️ Zamanlı Görsel Şifreleme (🇹🇷)")
 
