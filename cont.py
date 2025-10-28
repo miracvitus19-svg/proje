@@ -10,7 +10,7 @@ TURKISH_TZ = ZoneInfo("Europe/Istanbul")
 
 # ----------------------------- Ayarlar ve Başlık -----------------------------
 st.set_page_config(
-    page_title="Zamanlı Görsel Şifreleme Uygulaması",
+    page_title="Zamanlı Görsel Şifreleme",
     page_icon="🖼️",
     layout="wide"
 )
