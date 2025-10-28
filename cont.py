@@ -9,6 +9,11 @@ import base64
 TURKISH_TZ = ZoneInfo("Europe/Istanbul")
 
 # ----------------------------- Ayarlar ve Başlık -----------------------------
+st.set_page_config(
+    page_title="Zamanlı Görsel Şifreleme (🇹🇷)",
+    page_icon="🖼️",
+    layout="wide"
+)
 
 st.title("🖼️ Zamanlı Görsel Şifreleme (🇹🇷)")
 
@@ -753,3 +758,4 @@ with tab_decrypt:
                 else:
                     log("Gizli mesaj şifresi YANLIŞ.")
                     st.error("Yanlış Gizli Mesaj Şifresi!")
+
