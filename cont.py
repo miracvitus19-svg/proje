@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image, ImageDraw, ImageFont
 import hashlib, datetime, random, os, json, io
 from zoneinfo import ZoneInfo
-import time 
+import time
 import base64
 
 # Türkiye/İstanbul saat dilimi tanımı (UTC+3)
