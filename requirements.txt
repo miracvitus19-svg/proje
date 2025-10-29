@@ -1,2 +1,4 @@
-Pillow
 streamlit
+Pillow==9.5.0 
+backports.zoneinfo 
+
