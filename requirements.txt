@@ -1,9 +1,4 @@
-# Temel kütüphaneler
 streamlit
-pandas
-numpy
-
-# Hata veren kütüphaneler ve çözümleri:
-imgflw  # Yeni eklenmesi gereken kütüphane
-Pillow==9.5.0 # Daha önceki uyumsuzluk için önerilen kararlı sürüm
+Pillow
+zoneinfo
 
